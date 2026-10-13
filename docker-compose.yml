@@ -1,7 +1,10 @@
-
 services:
   api:
     build: .
     ports:
       - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////data/deanery.db
+    volumes:
+      - ./data:/data
     restart: unless-stopped
