@@ -23,7 +23,7 @@
 Потрібні встановлені Docker Desktop і Git. Після клонування репозиторію:
 
 ```bash
-git clone https://github.com/USERNAME/information-security-practice.git
+git clone https://github.com/behuletskyidmytro-code/information-security-practice.git
 cd information-security-practice
 cp .env.example .env
 ```
