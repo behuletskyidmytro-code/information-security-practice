@@ -5,6 +5,7 @@ services:
       - "8000:8000"
     environment:
       DATABASE_URL: sqlite:////data/deanery.db
+      SECRET_KEY: ${SECRET_KEY}
     volumes:
       - ./data:/data
     restart: unless-stopped
