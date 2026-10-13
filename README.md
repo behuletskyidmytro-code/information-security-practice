@@ -36,8 +36,6 @@ docker compose exec api alembic upgrade head
 docker compose exec api python -m app.seed
 ```
 
-> **Увага:** замініть `USERNAME` на власне ім'я користувача GitHub. Перед здачею перевірте, що команди міграції та наповнення бази відповідають конфігурації вашого контейнера.
-
 Після запуску:
 
 - Swagger UI: http://localhost:8000/docs
